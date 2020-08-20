@@ -1,11 +1,11 @@
 {
-  "name": "@antora/ui-default",
-  "description": "An archetype project that produces a UI for creating documentation sites with Antora",
+  "name": "@bdware/antora-ui",
+  "description": "Antora UI for BDWare documentation sites",
   "homepage": "https://gitlab.com/antora/antora-ui-default",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/antora/antora-ui-default.git"
+    "url": "https://github.com/BDWare/antora-ui.git"
   },
   "engines": {
     "node": ">= 8.0.0"
