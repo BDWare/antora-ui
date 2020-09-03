@@ -22,8 +22,14 @@ body {
   text-decoration: none;
 }
 
-.navbar-brand .navbar-item:first-child,
-.navbar-brand .navbar-item:first-child a {
+.navbar .navbar-logo {
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-brand .navbar-title,
+.navbar-brand .navbar-title a {
   color: var(--navbar-font-color);
   font-size: calc(22 / var(--rem-base) * 1rem);
 }

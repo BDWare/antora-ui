@@ -1,4 +1,7 @@
 :root {
+  /* BDWare */
+  --color-pku-red: #650404;
+  --color-pku-red-dark: #540404;
   /* colors */
   --color-white: #fff;
   --color-smoke-10: #fefefe;
@@ -33,9 +36,9 @@
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
   /* navbar */
-  --navbar-background: var(--color-jet-80);
+  --navbar-background: var(--color-pku-red);
   --navbar-font-color: var(--color-white);
-  --navbar_hover-background: var(--color-black);
+  --navbar_hover-background: var(--color-pku-red-dark);
   --navbar-button-background: var(--color-white);
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: var(--body-font-color);
