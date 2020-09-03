@@ -3,6 +3,11 @@
     <div class="navbar-brand">
       <img src="/_/img/bdware-logo.png" class="navbar-logo">
       <a class="navbar-item navbar-title" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+      {{#if env.DOCSEARCH_ENABLED}}
+        <div class="navbar-item">
+          <input id="search-input" type="text" placeholder="Search docs">
+        </div>
+      {{/if}}
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
