@@ -15,7 +15,7 @@ Vis no velit audiam, sonet <<dependencies,praesent>> eum ne.
 Integer diam enim, dignissim eget eros et, ultricies mattis odio.
 Vestibulum consectetur nec urna a luctus.
 Quisque pharetra tristique arcu fringilla dapibus.
-Curabitur ut massa aliquam, cursus enim et, accumsan lectus.
+https://example.org[Curabitur,role=unresolved] ut massa aliquam, cursus enim et, accumsan lectus.
 
 == Cu solet
 
@@ -85,6 +85,22 @@ src/
       HelloWorldTest.java
 ....
 
+Eu mea munere vituperata constituam.
+
+[%autowidth]
+|===
+|Input | Output | Example
+
+m|"foo\nbar"
+l|foo
+bar
+a|
+[source,ruby]
+----
+puts "foo\nbar"
+----
+|===
+
 Select menu:File[Open Project] to open the project in your IDE.
 Per ea btn:[Cancel] inimicus.
 Ferri kbd:[F11] tacimates constituam sed ex, eu mea munere vituperata kbd:[Ctrl,T] constituam.
@@ -105,6 +121,7 @@ No sea, at invenire voluptaria mnesarchum has.
 Ex nam suas nemore dignissim, vel apeirian democritum et.
 At ornatus splendide sed, phaedrum omittantur usu an, vix an noster voluptatibus.
 
+[upperalpha]
 . potenti donec cubilia tincidunt
 . etiam pulvinar inceptos velit quisque aptent himenaeos
 . lacus volutpat semper porttitor aliquet ornare primis nulla enim
@@ -112,6 +129,7 @@ At ornatus splendide sed, phaedrum omittantur usu an, vix an noster voluptatibus
 Natum facilisis theophrastus an duo.
 No sea, at invenire voluptaria mnesarchum has.
 
+[square]
 * ultricies sociosqu tristique integer
 * lacus volutpat semper porttitor aliquet ornare primis nulla enim
 * etiam pulvinar inceptos velit quisque aptent himenaeos
@@ -230,6 +248,14 @@ Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.
 Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.
 Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae!
+____
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+[verse]
+____
+The fog comes
+on little cat feet.
 ____
 
 == Fin
