@@ -1,3 +1,6 @@
+// https://github.com/Mogztter/antora-lunr/blob/master/supplemental_ui/js/vendor/lunr.js
+// commit 5e387bb on 12 Dec 2019
+
 /**
  * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.3.8
  * Copyright (C) 2019 Oliver Nightingale

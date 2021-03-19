@@ -27,6 +27,24 @@ You can see a preview of the default UI at {url-preview}.
 While the default UI is ready to be used with Antora, the intent is that you'll fork it and customize it for your own needs.
 It's intentionally minimalistic so as to give you a good starting point without requiring too much effort to customize.
 
+== BDWare Customizations
+
+=== https://github.com/Mogztter/antora-lunr[antora-lunr] integration
+
+Check https://github.com/Mogztter/antora-lunr/tree/master/supplemental_ui for UI changes
+
+Added UI files:
+
+- link:src/css/search.css[]
+- link:src/js/vendor/lunr.js[]
+- link:src/js/vendor/search.js[]
+
+Merged UI files:
+
+- link:src/partials/footer-scripts.hbs[]
+- link:src/partials/head-meta.hbs[]
+- link:src/partials/header-content.hbs[]
+
 == Use the Default UI
 
 If you want to simply use the default UI for your Antora-generated site, add the following UI configuration to your playbook:

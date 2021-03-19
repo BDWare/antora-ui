@@ -1,3 +1,6 @@
+// https://github.com/Mogztter/antora-lunr/blob/master/supplemental_ui/js/vendor/search.js
+// commit 51a2297 on 4 Aug 2020
+
 /* eslint-env browser */
 window.antoraLunr = (function (lunr) {
   var searchInput = document.getElementById('search-input')
